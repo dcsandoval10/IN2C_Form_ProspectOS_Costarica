@@ -28,7 +28,7 @@ console.log( typeof( uuid));
   console.log(JSON.stringify(paramsMios))
   enviarDatos(paramsMios)
   
-  changeForm()
+  redirectWebsite()
 
 
 })
@@ -48,6 +48,10 @@ async function enviarDatos(paramsMios) {
   response.json().then(data => {
     console.log(data);
   });
+}
+
+function redirectWebsite(){
+    window.location = "https://in2financial.zendesk.com/hc/es/articles/13518845070235--Interactuemos-con-Zendesk-";
 }
 
 function changeForm(){
