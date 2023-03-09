@@ -1,0 +1,115 @@
+* {}
+
+header {
+    background-color: #181a1b
+    ;
+    max-height: 5%;
+    margin-bottom: 40px;
+}
+
+#logo {
+    width: 40%;
+    min-width: 150px;
+    height: auto;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    background-color: #0b8fc7;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 1% 5% 1% 5%;
+    display: inline;
+    margin: 2%;
+}
+
+.menu-active {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 4% 12% 4% 12%;
+    display: inline;   
+}
+
+.back-logo{
+    width: 100%;
+    height: auto;
+}
+
+                                    /* SLIDES */
+
+/* .slide-container{
+    background-color: antiquewhite;
+} */
+
+.img-container{
+    max-height: 200px;
+    min-height: 200px;
+    overflow: hidden;
+    margin: 1%;
+    
+}
+
+.wrapper{
+    position: relative;
+    height: 100%;
+}
+
+.mini-wrapper{
+    height: 100%;
+    
+}
+
+.info-mother{
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    z-index: 2;
+    text-decoration: none;
+    text-align: center;
+}
+#health{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+#retail {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -20%;
+    z-index: 1;  
+}
+#education{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -40%;
+    z-index: 1; 
+}
+
+.info{
+    position: relative;
+    height: 100%;
+    transition: all 500ms ease-out;
+    color: transparent;
+    
+}
+
+.info:hover{
+    background: rgba(255,255,255,0.5);
+    color: black;
+}
+
+
+
+.spacing >div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
